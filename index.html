@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with Love</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffe6e6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .instruction {
+            font-size: 20px;
+            color: #ff4d4d;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .heart-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .heart-button img {
+            width: 150px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .heart-button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="instruction">Pencet tombol lovenya sayang</div>
+    <button class="heart-button" onclick="window.location.href='play.html'">
+        <img src="pngwing.com.png" alt="Love Button">
+    </button>
+</body>
+</html>
